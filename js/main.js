@@ -5,6 +5,9 @@ import {
   getCellElementAtIdx,
   getGameStatusElement,
 } from "./selectors.js";
+import { checkGameStatus } from './utils.js';
+
+console.log(checkGameStatus(["X", "O", "O", "", "X", "", "", "O", "X"]));
 
 // console.log(getCellElementList());
 // console.log(getCurrentTurnElement());
